@@ -1,0 +1,55 @@
+INFO 2019-01-26 14:28:44,060 - initialisation of a new user
+INFO 2019-01-26 14:28:44,060 - generating a nickname
+INFO 2019-01-26 14:28:44,060 - generating a nickname
+INFO 2019-01-26 14:28:44,060 - 
+<nickname : zumodu>
+<first_name : zumodu>
+<last_name : zogubu>
+<tags : ['tattoo', ' drawing', ' travel', ' art']>
+DEBUG 2019-01-26 14:28:44,596 - POST http://127.0.0.1:51335/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG 2019-01-26 14:28:44,596 - Starting new HTTP connection (1): 127.0.0.1:51335
+DEBUG 2019-01-26 14:28:46,263 - http://127.0.0.1:51335 "POST /session HTTP/1.1" 200 998
+DEBUG 2019-01-26 14:28:46,264 - Finished Request
+DEBUG 2019-01-26 14:28:46,264 - POST http://127.0.0.1:51335/session/d8c5df2d7ce289fcda2a76af230f44ff/url {"url": "https://account.mail.ru/signup?rf=auth.mail.ru&from=main", "sessionId": "d8c5df2d7ce289fcda2a76af230f44ff"}
+DEBUG 2019-01-26 14:28:48,856 - http://127.0.0.1:51335 "POST /session/d8c5df2d7ce289fcda2a76af230f44ff/url HTTP/1.1" 200 72
+DEBUG 2019-01-26 14:28:48,857 - Finished Request
+INFO 2019-01-26 14:28:49,857 - returning username
+DEBUG 2019-01-26 14:28:49,857 - POST http://127.0.0.1:51335/session/d8c5df2d7ce289fcda2a76af230f44ff/element {"using": "xpath", "value": "//*[@id=\"app-canvas\"]/div/div/div/div[1]/div[3]/form/div[3]/div/div/div[1]/div/div[2]/div[1]/input", "sessionId": "d8c5df2d7ce289fcda2a76af230f44ff"}
+DEBUG 2019-01-26 14:28:49,889 - http://127.0.0.1:51335 "POST /session/d8c5df2d7ce289fcda2a76af230f44ff/element HTTP/1.1" 200 101
+DEBUG 2019-01-26 14:28:49,890 - Finished Request
+DEBUG 2019-01-26 14:28:49,890 - POST http://127.0.0.1:51335/session/d8c5df2d7ce289fcda2a76af230f44ff/element/0.538851299658337-1/value {"text": "zumodu", "value": ["z", "u", "m", "o", "d", "u"], "id": "0.538851299658337-1", "sessionId": "d8c5df2d7ce289fcda2a76af230f44ff"}
+DEBUG 2019-01-26 14:28:49,976 - http://127.0.0.1:51335 "POST /session/d8c5df2d7ce289fcda2a76af230f44ff/element/0.538851299658337-1/value HTTP/1.1" 200 72
+DEBUG 2019-01-26 14:28:49,976 - Finished Request
+DEBUG 2019-01-26 14:28:49,976 - POST http://127.0.0.1:51335/session/d8c5df2d7ce289fcda2a76af230f44ff/element {"using": "xpath", "value": "//*[@id=\"app-canvas\"]/div/div/div/div[1]/div[3]/form/div[3]/div/div/div[2]/div/div[2]/div[1]/input", "sessionId": "d8c5df2d7ce289fcda2a76af230f44ff"}
+DEBUG 2019-01-26 14:28:49,990 - http://127.0.0.1:51335 "POST /session/d8c5df2d7ce289fcda2a76af230f44ff/element HTTP/1.1" 200 101
+DEBUG 2019-01-26 14:28:49,990 - Finished Request
+DEBUG 2019-01-26 14:28:49,990 - POST http://127.0.0.1:51335/session/d8c5df2d7ce289fcda2a76af230f44ff/element/0.538851299658337-2/value {"text": "zogubu", "value": ["z", "o", "g", "u", "b", "u"], "id": "0.538851299658337-2", "sessionId": "d8c5df2d7ce289fcda2a76af230f44ff"}
+DEBUG 2019-01-26 14:28:50,066 - http://127.0.0.1:51335 "POST /session/d8c5df2d7ce289fcda2a76af230f44ff/element/0.538851299658337-2/value HTTP/1.1" 200 72
+DEBUG 2019-01-26 14:28:50,066 - Finished Request
+DEBUG 2019-01-26 14:28:50,066 - POST http://127.0.0.1:51335/session/d8c5df2d7ce289fcda2a76af230f44ff/element {"using": "xpath", "value": ".//*[contains(text(), '\u041c\u0443\u0436\u0441\u043a\u043e\u0439')]", "sessionId": "d8c5df2d7ce289fcda2a76af230f44ff"}
+DEBUG 2019-01-26 14:28:50,081 - http://127.0.0.1:51335 "POST /session/d8c5df2d7ce289fcda2a76af230f44ff/element HTTP/1.1" 200 101
+DEBUG 2019-01-26 14:28:50,081 - Finished Request
+DEBUG 2019-01-26 14:28:50,081 - POST http://127.0.0.1:51335/session/d8c5df2d7ce289fcda2a76af230f44ff/element/0.538851299658337-3/click {"id": "0.538851299658337-3", "sessionId": "d8c5df2d7ce289fcda2a76af230f44ff"}
+DEBUG 2019-01-26 14:28:50,130 - http://127.0.0.1:51335 "POST /session/d8c5df2d7ce289fcda2a76af230f44ff/element/0.538851299658337-3/click HTTP/1.1" 200 72
+DEBUG 2019-01-26 14:28:50,130 - Finished Request
+DEBUG 2019-01-26 14:28:50,130 - POST http://127.0.0.1:51335/session/d8c5df2d7ce289fcda2a76af230f44ff/element {"using": "xpath", "value": "//*[@id=\"app-canvas\"]/div/div/div/div[1]/div[3]/form/div[6]/div/div[2]/div[1]/div/div[1]/span[3]/input", "sessionId": "d8c5df2d7ce289fcda2a76af230f44ff"}
+DEBUG 2019-01-26 14:28:50,143 - http://127.0.0.1:51335 "POST /session/d8c5df2d7ce289fcda2a76af230f44ff/element HTTP/1.1" 200 101
+DEBUG 2019-01-26 14:28:50,144 - Finished Request
+DEBUG 2019-01-26 14:28:50,144 - POST http://127.0.0.1:51335/session/d8c5df2d7ce289fcda2a76af230f44ff/element/0.538851299658337-4/value {"text": "zumodu.zogubu", "value": ["z", "u", "m", "o", "d", "u", ".", "z", "o", "g", "u", "b", "u"], "id": "0.538851299658337-4", "sessionId": "d8c5df2d7ce289fcda2a76af230f44ff"}
+DEBUG 2019-01-26 14:28:50,348 - http://127.0.0.1:51335 "POST /session/d8c5df2d7ce289fcda2a76af230f44ff/element/0.538851299658337-4/value HTTP/1.1" 200 72
+DEBUG 2019-01-26 14:28:50,348 - Finished Request
+DEBUG 2019-01-26 14:28:50,348 - POST http://127.0.0.1:51335/session/d8c5df2d7ce289fcda2a76af230f44ff/element {"using": "name", "value": "password", "sessionId": "d8c5df2d7ce289fcda2a76af230f44ff"}
+DEBUG 2019-01-26 14:28:50,362 - http://127.0.0.1:51335 "POST /session/d8c5df2d7ce289fcda2a76af230f44ff/element HTTP/1.1" 200 101
+DEBUG 2019-01-26 14:28:50,362 - Finished Request
+DEBUG 2019-01-26 14:28:50,362 - POST http://127.0.0.1:51335/session/d8c5df2d7ce289fcda2a76af230f44ff/element/0.538851299658337-5/value {"text": "dKn?`;v\"%4WvL", "value": ["d", "K", "n", "?", "`", ";", "v", "\"", "%", "4", "W", "v", "L"], "id": "0.538851299658337-5", "sessionId": "d8c5df2d7ce289fcda2a76af230f44ff"}
+DEBUG 2019-01-26 14:28:50,526 - http://127.0.0.1:51335 "POST /session/d8c5df2d7ce289fcda2a76af230f44ff/element/0.538851299658337-5/value HTTP/1.1" 200 72
+DEBUG 2019-01-26 14:28:50,526 - Finished Request
+DEBUG 2019-01-26 14:28:50,526 - POST http://127.0.0.1:51335/session/d8c5df2d7ce289fcda2a76af230f44ff/element {"using": "xpath", "value": "//*[@id=\"passwordRetry\"]", "sessionId": "d8c5df2d7ce289fcda2a76af230f44ff"}
+DEBUG 2019-01-26 14:28:50,541 - http://127.0.0.1:51335 "POST /session/d8c5df2d7ce289fcda2a76af230f44ff/element HTTP/1.1" 200 101
+DEBUG 2019-01-26 14:28:50,541 - Finished Request
+DEBUG 2019-01-26 14:28:50,541 - POST http://127.0.0.1:51335/session/d8c5df2d7ce289fcda2a76af230f44ff/element/0.538851299658337-6/value {"text": "dKn?`;v\"%4WvL", "value": ["d", "K", "n", "?", "`", ";", "v", "\"", "%", "4", "W", "v", "L"], "id": "0.538851299658337-6", "sessionId": "d8c5df2d7ce289fcda2a76af230f44ff"}
+DEBUG 2019-01-26 14:28:50,660 - http://127.0.0.1:51335 "POST /session/d8c5df2d7ce289fcda2a76af230f44ff/element/0.538851299658337-6/value HTTP/1.1" 200 72
+DEBUG 2019-01-26 14:28:50,660 - Finished Request
+DEBUG 2019-01-26 14:28:54,660 - POST http://127.0.0.1:51335/session/d8c5df2d7ce289fcda2a76af230f44ff/element {"using": "css selector", "value": "input[placeholder=\"\u0414\u0435\u043d\u044c\"]", "sessionId": "d8c5df2d7ce289fcda2a76af230f44ff"}
+DEBUG 2019-01-26 14:28:54,690 - http://127.0.0.1:51335 "POST /session/d8c5df2d7ce289fcda2a76af230f44ff/element HTTP/1.1" 200 368
+DEBUG 2019-01-26 14:28:54,690 - Finished Request
